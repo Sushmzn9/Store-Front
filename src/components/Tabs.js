@@ -13,7 +13,6 @@ export default function ColorTabs() {
 
   return (
     <>
-      <CatHoverPop />
       <Box sx={{ width: "100%" }}>
         <Tabs
           value={value}
@@ -22,9 +21,9 @@ export default function ColorTabs() {
           indicatorColor="secondary"
           aria-label="secondary tabs example"
         >
-          <Tab value="one" label="Item One" />
-          <Tab value="two" label="Item Two" />
-          <Tab value="three" label="Item Three" />
+          <Tab value="one" label="Desktop" />
+          <Tab value="two" label="Laptop" />
+          <Tab value="three" label="Mobile" />
         </Tabs>
       </Box>
     </>
