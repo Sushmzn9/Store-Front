@@ -24,7 +24,6 @@ const Hero = () => {
     <div>
       <Header />
       <ProductModel />
-      <AddView />
       <ColorTabs />
       <div
         className="flex justify-center
@@ -39,6 +38,7 @@ const Hero = () => {
       )}
 
       <StatCard />
+      <AddView />
       <Footer />
     </div>
   );
